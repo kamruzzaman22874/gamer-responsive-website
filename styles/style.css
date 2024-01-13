@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+
+.btn-primary {
+    background-color: #FF42A5;
+    padding: 15px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.btn-secondary {
+    background-color: #4EC5F7;
+    padding: 15px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 50px;
+}
+
+.fa-youtube {
+    color: #F61C0D;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+    margin-right: 32px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.list-style {
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav-left img {
+    width: 60px;
+}
+
+.nav-left>h2 {
+    font-weight: 700;
+}
+
+nav span {
+    color: #FF42A5;
+
+}
+
+.banner {
+    padding: 0 50px;
+}
+
+.banner-left {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/Group\ 14.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-left h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-left h2 {
+    color: #8758F1;
+}
+
+
+.btn-div {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-play {
+
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+    border-radius: 100%;
+    padding: 2px 2.5px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.play-des {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.fa-download {
+    color: #FF42A5;
+    padding: 2px 2.5px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.download-des {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.fa-users-line {}
